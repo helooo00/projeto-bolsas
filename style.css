@@ -118,7 +118,7 @@ nav{
   flex-direction: column;
   margin-top: 60px;
   gap: 17px;
-  height: 150px;
+  height: 130px;
   border-top: rgb(231, 231, 231) 2px solid;
 }
 .apps{
@@ -133,8 +133,15 @@ nav{
   }
 }
 .texto-rodape{
+  font-weight: 500;
   gap: 15px;
   display: flex;
 }
-
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: #dad8d8;
+  padding: 18px;
+  font-size: 15px;
+}
 

@@ -110,3 +110,31 @@ nav{
 .bolsa{
  width: 290px;
 }
+
+.rodape{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 60px;
+  gap: 17px;
+  height: 150px;
+  border-top: rgb(231, 231, 231) 2px solid;
+}
+.apps{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  img{
+    width: 2rem;
+    height: 1.5rem;
+  }
+}
+.texto-rodape{
+  gap: 15px;
+  display: flex;
+}
+
+
